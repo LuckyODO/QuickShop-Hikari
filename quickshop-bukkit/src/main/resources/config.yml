@@ -100,11 +100,10 @@ economy-type: 0
 economy:
   coinsengine:
     #Limit which CoinsEngine currencies are allowed for QuickShop.
-    #Leave empty to allow all currencies.
-    #Example:
-    #  - money
-    #  - rainbowcitymoney
-    allowed-currencies: []
+    #Configure the list below to control which currencies are usable.
+    allowed-currencies:
+      - money
+      - rainbowcitymoney
 
 #Whether to use decimal format to display money.
 use-decimal-format: false
