@@ -3,6 +3,7 @@ com.ghostchu.quickshop.common.util
 com.ghostchu.quickshop.common.util.mirror
 com.ghostchu.quickshop.api
 com.ghostchu.quickshop.api.obj
+com.ghostchu.quickshop.api.hook
 com.ghostchu.quickshop.api.event.packet
 com.ghostchu.quickshop.api.event.packet.send
 com.ghostchu.quickshop.api.event.packet.handler
@@ -31,6 +32,7 @@ com.ghostchu.quickshop.api.command
 com.ghostchu.quickshop.api.localization.text
 com.ghostchu.quickshop.api.localization.text.postprocessor
 com.ghostchu.quickshop.api.shop
+com.ghostchu.quickshop.api.shop.tax
 com.ghostchu.quickshop.api.shop.permission
 com.ghostchu.quickshop.api.shop.cache
 com.ghostchu.quickshop.api.shop.type
@@ -40,11 +42,15 @@ com.ghostchu.quickshop.api.config
 com.ghostchu.quickshop.api.inventory
 com.ghostchu.quickshop.api.database.bean
 com.ghostchu.quickshop.api.database
+com.ghostchu.quickshop.api.updater
 com.ghostchu.quickshop.platform
 com.ghostchu.quickshop.platform.paper
 com.ghostchu.quickshop.listener
 com.ghostchu.quickshop.obj
 com.ghostchu.quickshop
+com.ghostchu.quickshop.hook
+com.ghostchu.quickshop.hook.worldedit
+com.ghostchu.quickshop.hook.fworldedit
 com.ghostchu.quickshop.bootstrap
 com.ghostchu.quickshop.permission
 com.ghostchu.quickshop.permission.impl
@@ -71,6 +77,7 @@ com.ghostchu.quickshop.metric
 com.ghostchu.quickshop.papi
 com.ghostchu.quickshop.papi.impl
 com.ghostchu.quickshop.shop
+com.ghostchu.quickshop.shop.tax
 com.ghostchu.quickshop.shop.controlpanel
 com.ghostchu.quickshop.shop.controlpanel.component
 com.ghostchu.quickshop.shop.sign
@@ -180,5 +187,4 @@ com.ghostchu.quickshop.compatibility.towny.command
 com.ghostchu.quickshop.compatibility.ultimateclaims
 com.ghostchu.quickshop.compatibility.velocity
 com.ghostchu.quickshop.compatibility.voidchest
-com.ghostchu.quickshop.compatibility.worldedit
 com.ghostchu.quickshop.compatibility.worldguard
